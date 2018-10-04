@@ -17,7 +17,7 @@ int main()
     if ((scanf("%lg %lg %lg", &a, &b, &c) != 3) || (a != a) || (b != b) || (c != c))    //Checking for input//
     {
         printf("Invalid input data\n");
-        return -1;
+        return -100;
     }
     double x1 = NAN, x2 = NAN;
     int nRoots = SolveSquare(a, b, c, &x1, &x2);
